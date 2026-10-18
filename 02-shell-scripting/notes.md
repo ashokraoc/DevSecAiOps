@@ -60,7 +60,8 @@ Incorrect:
 
 **Rule 4: Avoid special characters in variable names.**
 
-Use letters, numbers, and underscores (`_`). Characters such as `-`, `@`, and `!` are not valid in ordinary shell variable names.
+Use letters, numbers, and underscores (`_`).
+Characters such as `-`, `@`, and `!` are not valid in ordinary shell variable names.
 
 Correct:
 ```bash
