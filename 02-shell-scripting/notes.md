@@ -196,3 +196,11 @@ Curly braces help distinguish the variable name from the surrounding text.
 | Names are case-sensitive | `name` differs from `NAME` |
 | Use `$` to access a value | `echo "$name"` |
 | Use braces for clarity | `echo "${name}_dev"` |
+
+------------------------------------------------------------------------------------------------------------------------
+
+## How to config variables
+
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+source "$SCRIPT_DIR/../config/variables.sh"

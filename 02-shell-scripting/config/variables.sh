@@ -1,2 +1,2 @@
-person1=Ashok
-person2=Kumar
+person1="Jai"
+person2="Sri Krishna"
