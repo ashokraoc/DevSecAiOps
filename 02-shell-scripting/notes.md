@@ -201,6 +201,6 @@ Curly braces help distinguish the variable name from the surrounding text.
 
 ## How to config variables
 
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+`SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"`
 
-source "$SCRIPT_DIR/../config/variables.sh"
+`source "$SCRIPT_DIR/../config/variables.sh"`
