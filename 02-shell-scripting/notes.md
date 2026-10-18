@@ -1,8 +1,10 @@
 # What is shebang?
     #!/bin/bash ---- is called as shebang
-    A shebang is the first line of a script that tells the operating system which interpreter to use when executing that script directly.
+    A shebang is the first line of a script that tells the operating system which interpreter to use when executing
+    that script directly.
     
-    In a Linux shell script, the # symbol is used to write a comment. Comments explain the code to the reader and are not executed as commands by the shell.
+    In a Linux shell script, the # symbol is used to write a comment. Comments explain the code to the reader
+    and are not executed as commands by the shell.
 
 # 1. Why does a shebang start with #!?
 
