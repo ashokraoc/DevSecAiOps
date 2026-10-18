@@ -11,7 +11,7 @@
 Explanation:
 
 - #!/bin/bash — Tells the system to use Bash to execute the script. This is called a shebang.
-- # This line explains the purpose of the script — A comment; the shell ignores it.
+- '# This line explains the purpose of the script — A comment; the shell ignores it.'
 - echo "Hello World" — Prints Hello World on the terminal.
-- # The following command displays the current date — Another comment.
+- '# The following command displays the current date — Another comment.'
 - date — Displays the current date and time.
