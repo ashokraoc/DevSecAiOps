@@ -363,6 +363,9 @@ Example:
 ```bash
 #!/bin/bash
 
+# If an argument contains spaces, enclose it in single or double quotes so the shell treats it as a single argument.
+# Example: bash arguments.sh "Ashok Kumar"
+
 echo "Arguments passed to the script:"
 
 for arg in "$@"

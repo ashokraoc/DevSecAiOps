@@ -16,11 +16,16 @@ echo "Third argument:: $3"
 echo "Total arguments passed:: $#"
 
 echo "-------------------------------------"
+
 #When we do not know how many arguments will be passed, we can use "$@".
+# If an argument contains spaces, enclose it in single or double quotes so the shell treats it as a single argument.
+# Example: bash arguments.sh "Ashok Kumar"
 
 echo "Arguments passed to the script:"
 for arg in "$@"
     do
         echo "$arg"
     done
+
+echo "Total arguments passed:: $#"
 
