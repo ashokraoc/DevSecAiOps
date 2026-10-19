@@ -264,6 +264,7 @@ Here:
 | `$1` | First positional argument | `Ravi` |
 | `$2` | Second positional argument | `Krishna` |
 | `$3` | Third positional argument | `AWS` |
+| `${10}` | use curly braces for arguments numbered 10 and above | `Azure` |
 | `$#` | Number of positional arguments | `2` |
 | `$@` | All positional arguments as separate words when quoted | `"$@"` |
 | `$*` | All positional arguments; quoted `"$*"` joins them into one word | `"$*"` |
