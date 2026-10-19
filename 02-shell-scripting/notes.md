@@ -492,3 +492,138 @@ These examples illustrate possible uses; the corresponding scripts must be writt
 5. Write a script that accepts two numbers and displays their sum.
 
 **Learning summary:** Shell script arguments make scripts reusable and flexible by allowing users to provide input values at execution time.
+
+
+# Shell Scripting: `read` Command
+
+## 1. What is the `read` Command?
+
+The `read` command is used to take input from the user through the terminal and store that input in a variable.
+
+### Syntax
+
+```bash
+read variable_name
+```
+
+- `read` — Accepts input from the user.
+- `variable_name` — Stores the value entered by the user.
+
+## 2. Example: Reading User Input
+
+```bash
+#!/bin/bash
+
+echo "Please enter your User name"
+read user_name
+
+echo "Welcome, $user_name"
+```
+
+### Sample Output
+
+```text
+Please enter your User name
+Ravi
+Welcome, Ravi
+```
+
+**Explanation:**
+
+1. `echo` displays a message asking for the username.
+2. `read user_name` waits for the user to enter a value.
+3. The entered value is stored in the `user_name` variable.
+4. `echo "Welcome, $user_name"` displays the stored value.
+
+## 3. Using the `-s` Option
+
+The `-s` option makes the `read` command operate in silent mode. The characters entered by the user are not displayed on the terminal while typing.
+
+### Example
+
+```bash
+#!/bin/bash
+
+echo "Please enter your Password"
+read -s user_passwd
+
+echo
+echo "Password received successfully."
+```
+
+### Sample Output
+
+```text
+Please enter your Password
+Password received successfully.
+```
+
+**Note:** The password is not displayed while the user types it. The additional `echo` prints a newline after the silent input.
+
+## 4. Complete Example: Username and Password
+
+```bash
+#!/bin/bash
+
+echo "Please enter your User name"
+read user_name
+
+echo "Please enter your Password"
+read -s user_passwd
+
+echo
+echo "User name is:: $user_name // Password is:: ******"
+```
+
+### Sample Output
+
+```text
+Please enter your User name
+Ravi
+
+Please enter your Password
+
+User name is:: Ravi // Password is:: ******
+```
+
+**Explanation:**
+
+- `read user_name` accepts the username and displays the typed characters.
+- `read -s user_passwd` accepts the password without displaying the typed characters.
+- `echo` on its own prints a newline after the password input.
+- `$user_name` accesses the username stored in the variable.
+- `******` is a fixed text string used to mask the password in the output. It does not display or replace the actual password value.
+
+## 5. Important `read` Options
+
+| Option | Purpose |
+|---|---|
+| `-s` | Hides the characters entered by the user. |
+| `-p` | Displays a prompt before accepting input. |
+| `-r` | Prevents backslashes from being treated as escape characters. |
+| `-t` | Sets a timeout for accepting input. |
+
+### Example using `-p` and `-s`
+
+```bash
+#!/bin/bash
+
+read -p "Enter your username: " user_name
+read -s -p "Enter your password: " user_passwd
+
+echo
+echo "Welcome, $user_name"
+```
+
+This approach avoids needing separate `echo` statements for the prompts.
+
+## 6. Quick Revision
+
+- `read` accepts input from the user.
+- The entered value is stored in a variable.
+- `read -s` hides typed characters during input.
+- `$variable_name` accesses the stored value.
+- `echo` prints output to the terminal.
+- Never print actual passwords or commit credentials to GitHub.
+
+**Remember:** Use `read` to accept input, variables to store it, and `echo` to display the required output.
