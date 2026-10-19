@@ -614,7 +614,20 @@ read -s -p "Enter your password: " user_passwd
 echo
 echo "Welcome, $user_name"
 ```
+### Example using `-t` and `-r`
 
+```bash
+#!/bin/bash
+
+if read -r -t 10 -p "Enter your file path within 10 seconds: " file_path; then
+    echo "You entered: $file_path"
+else
+    echo "Input timed out or could not be read."
+fi
+
+echo
+echo "Welcome, $user_name"
+```
 This approach avoids needing separate `echo` statements for the prompts.
 
 ## 6. Quick Revision
