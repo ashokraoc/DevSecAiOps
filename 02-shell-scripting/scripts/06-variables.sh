@@ -10,7 +10,7 @@ echo "User name is::  $user_name"
 echo "Password received successfully."
 
 
-
+# read command to ask for the Enter Username
 
 read -p "Enter your username: " user_name
 read -s -p "Enter your password: " user_passwd
