@@ -3,7 +3,6 @@
 **Level:** Beginner  
 **Topic:** Linux commands  
 **Questions:** 20  
-**Final score from practice:** 12.5/20 (62.5%)
 
 ## 1. Find all `.log` files under `/var/log`
 
