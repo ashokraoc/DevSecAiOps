@@ -162,4 +162,4 @@ Example run a command:
 - backend
 
 *** example run: ***
-    ansible production -m ping
+- ansible production -m ping
