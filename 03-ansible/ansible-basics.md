@@ -72,4 +72,4 @@ Ansible works using the following components:
 - Playbooks are written in YAML.
 - Inventory defines the managed hosts.
 - Modules perform specific operations.
-- Idempotency helps maintain the desired system state.
+- Idempotency helps maintain the desired system state. 
