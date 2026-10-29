@@ -136,12 +136,12 @@ Example run a command:
 - 172.24.35.210
 
 [roboshop:children]
-web
-backend
-db
+- web
+- backend
+- db
 
 [web:vars]
-ansible_user=ec2-user
-ansible_port=22
+    ansible_user=ec2-user
+    ansible_port=22
 
 *** so every web server uses ec2-user automatically. ***
