@@ -135,13 +135,31 @@ Example run a command:
 - 172.23.34.209
 - 172.24.35.210
 
-[roboshop:children]
-- web
-- backend
-- db
-
 [web:vars]
 - ansible_user=ec2-user
 - ansible_port=22
 
 *** so every web server uses ec2-user automatically. ***
+
+
+## 5. Children Group
+[web]
+- 172.19.30.205
+- 172.20.31.206
+- [db]
+- 172.21.32.207
+- 172.22.33.208
+- [backend]
+- 172.23.34.209
+- 172.24.35.210
+
+[production:children]
+- web
+- db
+
+[staging:childeren]
+- web
+- backend
+
+*** example run: ***
+- ansible production -m ping
