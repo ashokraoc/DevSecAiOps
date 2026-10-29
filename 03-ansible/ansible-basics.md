@@ -73,3 +73,40 @@ Ansible works using the following components:
 - Inventory defines the managed hosts.
 - Modules perform specific operations.
 - Idempotency helps maintain the desired system state. 
+
+## How to Write a PLAYBOOK in Ansible
+
+- We write Ansible playbooks in YAML lang
+- ex: playbook.yaml
+- start with - in yaml
+- "-" means LIST in yaml/ansible
+
+## what is a inventory file ?
+
+- Inventory is a file or a directory that serves as a centalized catalog of the hosts (servers, network devices, etc.) that ansible manages and automates
+- *** Key Components
+    1. Hosts
+    2. Groups
+    3. Variables
+
+## Inventory Types
+
+- --> Ansible supports two Primary types of inventories
+    1. Static Inventory
+    2. Dynamic Inventory
+- ex: inventory.ini
+
+## 1. Host
+    A host is any server that ansible manages
+- It can be
+    1. IP address # 192.31.21.1
+    2. Hostname # web-server/db server
+    3. DNS name
+
+    Example Inventory (if this kind (not grouped into) is call as orphan inventory)
+    172.21.31.205
+    172.21.31.206
+
+## 2. Host Variables
+    Host variables are settings specific to a single host
+- Example: 172.31.21.205 ansible_user=ec2-user ansible_password=<ssh-passwd> ansible_port=<ssh-port> ansible_ssh_private_file_key=<ssh-keys(.pem)>
