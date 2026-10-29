@@ -103,7 +103,7 @@ A host is any server that ansible manages
     2. Hostname # web-server/db server
     3. DNS name
 
-    Example Inventory (if this kind (not grouped into) is call as orphan inventory)
+Example Inventory: (if this kind (not grouped into any) is call as orphan inventory)
     172.21.31.205
     172.21.31.206
 
