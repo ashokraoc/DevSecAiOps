@@ -122,7 +122,7 @@ Example Inventory: (if this kind (not grouped into any) is call as orphan invent
 - 172.22.33.206
 
 Example run a command:
-- ansible web -m ping
+    ansible web -m ping
 
 ## 4. Group Variable
 [web]
@@ -162,4 +162,4 @@ Example run a command:
 - backend
 
 *** example run: ***
-- ansible production -m ping
+    ansible production -m ping
