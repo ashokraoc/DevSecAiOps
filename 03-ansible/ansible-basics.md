@@ -104,9 +104,44 @@ A host is any server that ansible manages
     3. DNS name
 
 Example Inventory: (if this kind (not grouped into any) is call as orphan inventory)
-    172.21.31.205
-    172.21.31.206
+- 172.21.31.205
+- 172.21.31.206
 
 ## 2. Host Variables
     Host variables are settings specific to a single host
-- Example: 172.31.21.205 ansible_user=ec2-user ansible_password=<ssh-passwd> ansible_port=<ssh-port> ansible_ssh_private_file_key=<ssh-keys(.pem)>
+- Example:
+    172.31.21.205 ansible_user=ec2-user ansible_password=<ssh-passwd> ansible_port=<ssh-port> ansible_ssh_private_file_key=<ssh-keys(.pem)>
+
+## 3. Groups
+- Hosts can be organised into groups, so Grops make automation much easier
+[web]
+- 172.19.30.205
+- 172.20.31.206
+[db]
+- 172.21.32.205
+- 172.22.33.206
+
+Example run a command:
+- ansible web -m ping
+
+## 4. Group Variable
+[web]
+- 172.19.30.205
+- 172.20.31.206
+[db]
+- 172.21.32.207
+- 172.22.33.208
+[backend]
+- 172.23.34.209
+- 172.24.35.210
+
+[roboshop:children]
+web
+backend
+db
+
+[web:vars]
+ansible_user=ec2-user
+ansible_port=22
+
+*** so every web server uses ec2-user automatically. ***
