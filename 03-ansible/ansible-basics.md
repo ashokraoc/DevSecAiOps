@@ -141,7 +141,7 @@ Example run a command:
 - db
 
 [web:vars]
-    ansible_user=ec2-user
-    ansible_port=22
+- ansible_user=ec2-user
+- ansible_port=22
 
 *** so every web server uses ec2-user automatically. ***
