@@ -97,7 +97,7 @@ Ansible works using the following components:
 - ex: inventory.ini
 
 ## 1. Host
-    A host is any server that ansible manages
+A host is any server that ansible manages
 - It can be
     1. IP address # 192.31.21.1
     2. Hostname # web-server/db server
