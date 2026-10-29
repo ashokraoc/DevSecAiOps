@@ -1,0 +1,39 @@
+- firstName: "Ashok"
+  middleName: "Kumar"
+  lastName: "Chelikani"
+  dob: 15-06-1985
+  addresses:
+  - type: Permanent
+    doorNo: 3-4-34
+    road: 3
+    street: "SitaRama Nagar"
+    city: Hyderabad
+  - type: Temporaty
+    doorNo: 34-4-3
+    road: 3
+    street: "Hanuman Nagar"
+    city: Hyderabad
+  skills:
+    OS: Linux,
+    IDE: VS Code,
+    topic: Ansible
+
+- firstName: "Anil"
+  middleName: "Kumar"
+  lastName: "Chelikani"
+  dob: 15-06-1983
+  addresses:
+  - type: Permanent
+    doorNo: 3-4-34
+    road: 3
+    street: "SitaRama Nagar"
+    city: Hyderabad
+  - type: Temporaty
+    doorNo: 34-4-3
+    road: 3
+    street: "Hanuman Nagar"
+    city: Hyderabad
+  skills:
+    OS: Linux,
+    IDE: VS Code,
+    topic: Ansible

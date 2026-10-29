@@ -1,0 +1,24 @@
+<student>
+    <firstName>Ashok Kumar</firstName>
+    <lastName>Chelikani</lastName>
+    <dob>June 15th 1985</dob>
+    <address>3-4-34, Sri Rama Nagar, Hyderabad</address>
+</student>
+
+<student>
+    <firstName>Ashok Kumar</firstName>
+    <lastName>Chelikani</lastName>
+    <dob>June 15th 1985</dob>
+    <addresses>
+        <address type="temporary">
+            <doorNo>3-4-34</address>
+            <streetName>Sri Rama Nagar</streetName>
+            <city>Hyderabad</city>
+        </address>
+        <address type="permanent">
+            <doorNo>3-4-34</address>
+            <streetName>Sri Rama Nagar</streetName>
+            <city>Hyderabad</city>
+        </address>
+    </addresses>
+</student>

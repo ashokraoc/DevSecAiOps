@@ -1,0 +1,24 @@
+{
+    "firstName": "Ashok Kumar",
+    "lastName": "Chelikani",
+    "DOB": "June 15th 1985",
+    "addresses":[
+        {
+            "type": "permanent",
+            "doorNo": "3-4-34",
+            "streetName": "Sri Ram Nagar",
+            "city": "Hyderabad"
+        },
+        {
+            "type": "temporaty",
+            "doorNo": "34-4-3",
+            "streetName":"Sita Rama Nagar",
+            "city": "Hyderabad"
+        }
+    ],
+    "skills":{
+        "OS": "Linux",
+        "IDE": "VsCode",
+        "topic": "Ansible"
+    }
+}
