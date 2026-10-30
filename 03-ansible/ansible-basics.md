@@ -163,3 +163,23 @@ Example run a command:
 
 *** example run: ***
 - ansible production -m ping
+
+
+### Ansible iniventory Variables
+
+- 1. Ansible - Host
+    - 1.1. This variable specifies the actual IP address (or) DNS name of the server
+    - 1.2 It is useful when the inventory host name is different from the real IP
+
+    ex:
+    - [web]
+        web ansible_host=172.31.29.200
+
+- 2. Ansible - Host
+    - 1.1 This defines the SSH login user
+    ex:
+    [web]
+    172.31.21.205 ansible_user=ec2-user
+
+    - as same as
+    - ssh ec2-user@172.31.29.200
