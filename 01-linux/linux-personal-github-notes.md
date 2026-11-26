@@ -36,7 +36,7 @@ Basic Linux Commands
 File and Directory Management+
 Users and Permissions
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 
@@ -110,7 +110,7 @@ Imagine three people want to use Linux:
 🖥️ A company wants a stable server.
 Should all of them use the same Linux version?
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Linux is used in supercomputers, cloud platforms, and even space
@@ -158,7 +158,7 @@ Linux Deeply
 ⭐⭐⭐⭐
 ● Desktop Preview
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Why Are There Different Distributions?
@@ -199,7 +199,7 @@ Let's start with the most important tool in Linux: The Terminal.
 ↘ The Terminal
 ● What is the Terminal?
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e What is the Terminal?
@@ -229,7 +229,7 @@ Manage users and permissions
 Install and update software
 Monitor system activity
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e With the Terminal, you can:
@@ -267,7 +267,7 @@ system administration, cybersecurity, or ethical hacking, a weak
 understanding of the fundamentals will slow your progress. Take the
 time to observe, understand, and practice every command with full
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 the same way when they started, | felt the same too &
@@ -308,7 +308,7 @@ whoami
 
 Does Linux Show Your Username?
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 The whoani Command displays the username of the currently logged-in user, as
@@ -347,7 +347,7 @@ The ls command stands for List.
 It displays the files and folders present in your current location.
 💡 This is one of the most commonly used Linux commands.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 The pw Command stands for Print Working Directory.
@@ -395,7 +395,7 @@ ls -a → Shows all files, including hidden ones
 
 you can observe in the provided screenshot and can try on your terminal for
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice i)
@@ -437,7 +437,7 @@ It allows you to move from one directory to another.
 💡 Think of a directory as a folder. The         cd   command lets you travel between
 folders in Linux.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice «))
@@ -497,7 +497,7 @@ ls    # Here you see user names, most probably only one use
 r will be there,
 #   Which is you
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > cd...
@@ -543,7 +543,7 @@ Create a practice directory:
 mkdir Linux_Practice
 ```
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice
@@ -593,7 +593,7 @@ touch notes.txt
 
 Create a script file:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 2. Enter in CyberSecurity folder using <a
@@ -647,7 +647,7 @@ What is echo ?
 🎯
 I can use it to display status messages or send text into another command or a file.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > touch filel.txt file2.txt file3.txt
@@ -690,7 +690,7 @@ But what if we want to keep the old content and add new text too?
 
 ● Practice    👊🏼
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice i)
@@ -736,7 +736,7 @@ cat file1.txt file2.txt
 ● Practice       👊🏼
 First, create a file:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 The most common use of «at is to view the contents of a file.
@@ -785,7 +785,7 @@ Recycle Bin.
 Removing Files            ▶
 Delete a file:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Removing Files [J
@@ -819,7 +819,7 @@ It tells Linux to remove the directory and all files/sub-directories inside it.
 Common Examples                       🎯
 Delete a file:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Removing Empty Directories [J
@@ -879,7 +879,7 @@ Can you still see TestFolder?
 
 ### 10. Copying Files & Directories ( cp )
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice i)
@@ -926,7 +926,7 @@ Without -r, cp cannot copy sub-folders and file.
 
 Common Examples                 🎯
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > cp -r Linux Practice Backup
@@ -965,7 +965,7 @@ Linux provides the mv command for this.
 Renaming Files :)
 To rename a file:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice ©)
@@ -1006,7 +1006,7 @@ Move a file:
 
 Rename a directory:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 d.txt Desktop/
@@ -1059,7 +1059,7 @@ Complete the following tasks:
 
 10. Verify that final_notes.txt exists inside Archive.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Backup Desktop/
@@ -1112,7 +1112,7 @@ use them.
 
 🎯
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 # Conmands you may need: 1s, cat, rm, touch, mkdir, mv, cp, echo, cd
@@ -1157,7 +1157,7 @@ man pwd
 
 Can you find what pwd stands for?
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 View the manual for 1s:
@@ -1196,7 +1196,7 @@ As you run more commands, the terminal can become crowded with output.
 
 Like this…
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Alternates of (nan) () hein?
@@ -1234,7 +1234,7 @@ Did the terminal become clean?
 
 ### 14. Command History ( history )
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Linux provides the command to clean the terminal screen.
@@ -1268,7 +1268,7 @@ history
 
 Can you find some commands you learned in this course?
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 22 1s
@@ -1319,7 +1319,7 @@ There, I mentioned that:
 .     = your current location
 ..    = one folder back
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 The first word, ‘inc, is simply the command we're using.
@@ -1364,7 +1364,7 @@ Linux will start searching from your current location.
 
 ● Practice          👊🏼
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 The -nane part means:
@@ -1398,7 +1398,7 @@ cat .bashrc
 
 You'll probably notice that the entire file gets dumped onto the screen at once   😅
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Create a file somewhere and try finding it... its quite fun right?
@@ -1416,7 +1416,7 @@ That's where the less command comes in.
 
 You might see a lot of strange text and commands. That's completely normal   😄
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 $ less .bashre
@@ -1448,7 +1448,7 @@ Can you scroll through the file and return to the terminal using q ?   😎
 ### 17. Editing Files ( nano )
 So far, we've created files and read them.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Sis mR f9 slo. r Serer
@@ -1483,7 +1483,7 @@ Like this
 
 Now try typing a few lines like i wrote:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Sime ie alo Serres
@@ -1511,7 +1511,7 @@ Enter
 
 to return to the terminal.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Sisme fees alo : Veena
@@ -1563,7 +1563,7 @@ Copy this text and paste       👇🏻
 2. I am practicing Linux commands.
 3. Linux is useful for security labs.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 9 Don't worry if this feels confusing at first. After using Nano a few times, it
@@ -1589,7 +1589,7 @@ Notice what happened?    🤔
 Instead of showing the entire file, grep only displayed the lines containing the
 word Linux.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 GNU nano 9.0 practice.txt *
@@ -1637,7 +1637,7 @@ Can you figure out what is the difference then? Find out.
 ### 19. Viewing the Beginning of a File ( head )
 Let's create a slightly larger file.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice i)
@@ -1655,7 +1655,7 @@ Imagine a file containing hundreds of lines. Reading the entire file every time
 wouldn't be very practical  😅
 Sometimes, you only want to see the beginning of a file.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Some 3 vse ses |a6
@@ -1713,7 +1713,7 @@ head -n 5 practice.txt
 This will display only the first 5 lines.
 Or:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 1. Linux helps me manage servers
@@ -1760,7 +1760,7 @@ But what if we want to see the last few lines instead?   🤔
 That's where the tail command comes in.
 Let's use the same file we created earlier:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 1. Linux helps me manage servers
@@ -1792,7 +1792,7 @@ Want only the last 5 lines?
 
 Need the last 11 lines?
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 $ tail practice.txt
@@ -1848,7 +1848,7 @@ tail -n 11 practice.txt
 
 Can you spot the difference?   🤔
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 5. Linux powers many servers
@@ -1894,7 +1894,7 @@ It is used to count lines, words, and characters in a file.
 Count Only Lines
 Sometimes we only care about the number of lines.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 21. Counting Text ( we )
@@ -1945,7 +1945,7 @@ Can you figure out which number represents lines, words, and characters?   🤔
 ### 22. Sorting Text ( sort )
 Imagine you have a file containing many words or names.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Y -. stands for Lines.
@@ -1978,7 +1978,7 @@ Linux arranged the lines in alphabetical order.
 
 Original File
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 L$ nano fruits.txt
@@ -2018,7 +2018,7 @@ That's where the pipe operator comes in.
 command1 | command2
 ```
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice (i)
@@ -2047,7 +2047,7 @@ As a result, wc counts the lines instead of displaying the file.
 💡 A pipe connects two commands together.
 Another Example
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 4. Linux makes everyday administration easier.
@@ -2090,7 +2090,7 @@ Let's create a file:
 
 Add the following text:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 1 sudo su usmani
@@ -2116,7 +2116,7 @@ Now let's see the contents:
 As you can see, several lines appear more than once.
 Linux provides the uniq command to remove duplicate lines.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Session Actions Edit View Help
@@ -2154,7 +2154,7 @@ Output:
 apple
 banana
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 The unig command only works properly when duplicate lines are next to each
@@ -2201,7 +2201,7 @@ Complete the following tasks:
 
 2. Move into Linux_Challenge.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice “|
@@ -2257,7 +2257,7 @@ Use pipes to complete the following:
 
 2. What is the difference between find and grep?
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 3. Show only the first 5 conmands from your history.
@@ -2300,7 +2300,7 @@ date
 Does the date and time match your system clock?       😄
 ### 25. Identifying Files ( file )
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Y Try completing everything on your own. if you get stuck, revisit the relevant
@@ -2342,7 +2342,7 @@ Even though both are files, Linux recognizes them as completely different types.
 💡 Linux does not rely on file extensions like Windows. It looks at the actual
 contents of the file to determine what it is.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Even though its name was text file... We found that its a image file.
@@ -2390,7 +2390,7 @@ So the question is: Where do commands get stored???     🤔
 And what if we could also create our own commands? How would that work??   😄
 What I notice, right?
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 There is no .txt, .paf, OF .png extension.
@@ -2418,7 +2418,7 @@ In simple words, this is the location of the cat command on the system.
 
 Let's try a few more commands:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Linux provides a simple command called \j:ich that helps us find where a
@@ -2459,7 +2459,7 @@ The word bin stands for Binary. Don't let the name confuse you     😄
 In Linux, many programs and commands are stored inside directories named bin .
 Let's explore this directory ourselves.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 L whoa
@@ -2501,7 +2501,7 @@ we typed into the terminal. But now we know that they're actual programs stored
 on the system, and we even managed to find some of them ourselves inside the
 /usr/bin directory. That's exactly what the which command helped us discover.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 traceroute- 9g
@@ -2548,7 +2548,7 @@ May show:
 
 So you can think of it like this:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Unlike wich, the whereis command can show multiple locations related to a
@@ -2596,7 +2596,7 @@ it
 mkdir Notes Images Scripts                         # Make multiple directorie
 s inside it
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice «))
@@ -2646,7 +2646,7 @@ Linux_Practice
 Some Linux distributions do not install tree by default.
 And if your is one of them…don’t worry
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Linux Practice
@@ -2681,7 +2681,7 @@ But there's a small problem...
 This time the text was saved into the file, but it wasn't displayed on the terminal
 until we used cat.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 sudo apt install tree
@@ -2720,7 +2720,7 @@ the file.
 
 Understanding the Command ✓
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 mmm echo + Shows output only
@@ -2768,7 +2768,7 @@ Did the text appear on the screen and inside the file?   👀
 ● Challenge        👊🏼
 Create a file named:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Think of ‘ce as a splitter.
@@ -2810,7 +2810,7 @@ cut
 
 Let's create a small file first:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 and save this text into it using tcc:
@@ -2847,7 +2847,7 @@ Before looking at the command, let's look at the data first:
 
 ➖       linux_admin_beginner
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 GNU nano 9.0
@@ -2920,7 +2920,7 @@ cut -d ";" -f1 users.txt
 
 Output:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > cut -@ 0" =f2 practice: txt
@@ -2964,7 +2964,7 @@ Mouse_Logitech_1200
 
 Now try:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > users. txt
@@ -3012,7 +3012,7 @@ Add:
 
 Save and exit.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 In the previous lesson, we used the cu: command to separate text.
@@ -3036,7 +3036,7 @@ The names are in one file and the cities are in another.
 Let's combine them.
 Run:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 nikhilS nikhil 192.168.1.50 CMD:2301)~|~
@@ -3082,7 +3082,7 @@ Add:
 
 Now run:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > ages. txt
@@ -3121,7 +3121,7 @@ nano fruits.txt
 
 Add:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > names.txt cities.txt ages.txt
@@ -3189,7 +3189,7 @@ Save and exit.
 Let's view both files:
 1st file
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 g diff
@@ -3221,7 +3221,7 @@ Python was present.
 
 💡       While in file2.txt:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > filel.txt
@@ -3267,7 +3267,7 @@ diff file1.txt file2.txt
 
 Can you identify which lines Linux reports as different?   😄
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Understanding the Command V
@@ -3307,7 +3307,7 @@ This time Linux converted all capital letters into small letters.
 
 Command breakdown ⤻
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 LINUX IS AWESOME :
@@ -3343,7 +3343,7 @@ Linux replaced every underscore with a space.
 
 ● Another Example       👊🏼
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 linux linux Linux
@@ -3390,7 +3390,7 @@ echo "linux_ops_basics" | tr "_" "-"
 Before running each command, try to work out what it will print.    😎
 ### 34. Checking Disk Usage ( du )
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e Practice “|
@@ -3428,7 +3428,7 @@ Output:
 You might see several numbers and paths.
 What I notice      😄
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Linux has a command for this task: cu .
@@ -3462,7 +3462,7 @@ Instead of large values, you may see:
 The -h option stands for:
 Human Readable
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 The -» option stands for:
@@ -3523,7 +3523,7 @@ du -sh ~
 Which location is using the most storage on your system?   😎
 ### 35. Checking Memory Usage ( free )
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 The au command can help when:
@@ -3561,7 +3561,7 @@ What is -h ?
 The -h option stands for Human Readable, same as du
 It tells Linux to display sizes in a format that is easier for humans to read.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 Shap 24787964 © 24787964
@@ -3608,7 +3608,7 @@ ith -h option.
 
 instead of:
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 e When this command is useful + «
@@ -3656,7 +3656,7 @@ After running this command, Linux will display information about your disk space
 ● What is df?
 The df command stands for Disk Filesystem.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 using the au command.
@@ -3686,7 +3686,7 @@ Used
 Avail
 We'll use these to understand how much storage is available on the system.
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 > df
@@ -3756,7 +3756,7 @@ Now run:
 
 df -h
 
-#### Additional terminal examples captured from page image (OCR)
+ 
 
 ```text
 y we = 1268
