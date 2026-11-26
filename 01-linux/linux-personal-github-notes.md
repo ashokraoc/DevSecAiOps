@@ -17,7 +17,7 @@
 
 ---
 
-## Source page 1
+## page 1
 
 💡
 🎯 Introduction
@@ -36,16 +36,9 @@ Basic Linux Commands
 File and Directory Management+
 Users and Permissions
 
- 
-
-```text
-
-```
-
-
 ---
 
-## Source page 2
+## page 2
 
 Process Management
 Networking Basics
@@ -79,7 +72,7 @@ confidently.
 
 ---
 
-## Source page 3
+## page 3
 
 system.
 ● Linux is used in supercomputers, cloud platforms, and even space
@@ -121,7 +114,7 @@ FS A cybersecurity learner wants hacking tools.
 
 ---
 
-## Source page 4
+## page 4
 
 Probably not.
 Linux is not a single operating system that looks the same everywhere. Instead, it
@@ -176,7 +169,7 @@ e Desktop Preview
 
 ---
 
-## Source page 5
+## page 5
 
 Linux Mint                     Fedora
 Ubuntu
@@ -208,7 +201,7 @@ e What is the Terminal?
 
 ---
 
-## Source page 6
+## page 6
 
 ### The Terminal is a text-based interface that allows you to communicate directly
 with the operating system by typing commands. Instead of clicking through
@@ -238,7 +231,7 @@ e With the Terminal, you can:
 
 ---
 
-## Source page 7
+## page 7
 
 Perform advanced administrative tasks
 At first, the Terminal may look intimidating, but don't worry. Most Linux users felt
@@ -277,7 +270,7 @@ In Linux, you'll use this pattern again and again (i)
 
 ---
 
-## Source page 8
+## page 8
 
 attention and interest. Mastering these basics today will make learning
 advanced Linux topics significantly easier tomorrow.
@@ -318,7 +311,7 @@ e Practice “/)
 
 ---
 
-## Source page 9
+## page 9
 
 ### 2. Where Am I? ( pwd )
 Imagine you are moving through many folders and suddenly forget where you are.
@@ -361,7 +354,7 @@ The is command stands for List.
 
 ---
 
-## Source page 10
+## page 10
 
 ● Practice        👊🏼
 # Open the terminal and run:
@@ -407,7 +400,7 @@ Is -a = Shows all files, including hidden ones
 
 ---
 
-## Source page 11
+## page 11
 
 better understanding
 Examples:
@@ -448,7 +441,7 @@ Linux provides the ca command for this.
 
 ---
 
-## Source page 12
+## page 12
 
 Common Examples
 Go to the Documents folder:
@@ -508,7 +501,7 @@ e Practice «
 
 ---
 
-## Source page 13
+## page 13
 
 ### 5. Creating Folders ( mkdir )
 Until now, I have worked with directories that already exist.
@@ -552,7 +545,7 @@ e Practice
 
 ---
 
-## Source page 14
+## page 14
 
 Now check if it was created:
 
@@ -603,7 +596,7 @@ Create a script file:
 
 ---
 
-## Source page 15
+## page 15
 
 ```bash
 touch script.sh
@@ -659,7 +652,7 @@ Basic form: `echo "message"`
 
 ---
 
-## Source page 16
+## page 16
 
 Common Examples               🎯
 Display a message:
@@ -701,7 +694,7 @@ The - operator replaces old content.
 
 ---
 
-## Source page 17
+## page 17
 
 echo "Practicing terminal commands" > notes.txt
 
@@ -747,7 +740,7 @@ e Practice ©)
 
 ---
 
-## Source page 18
+## page 18
 
 # create a file
 ```bash
@@ -795,7 +788,7 @@ la.txt b.txt
 
 ---
 
-## Source page 19
+## page 19
 
 Verify that it was deleted:
 
@@ -830,7 +823,7 @@ Removing Directories with Files Inside [9
 
 ---
 
-## Source page 20
+## page 20
 
 ```bash
 rm notes.txt
@@ -888,7 +881,7 @@ e Practice i)
 
 ---
 
-## Source page 21
+## page 21
 
 Sometimes you may want to create a copy of a file or directory instead of
 modifying the original one.
@@ -935,7 +928,7 @@ Common Examples                 🎯
 
 ---
 
-## Source page 22
+## page 22
 
 Copy a file:
 
@@ -975,7 +968,7 @@ Linux provides the »y command for this.
 
 ---
 
-## Source page 23
+## page 23
 
 # rename notes.txt to mynotes.txt
 ```bash
@@ -1016,7 +1009,7 @@ Desktop2 Backup
 
 ---
 
-## Source page 24
+## page 24
 
 Move a directory:
 
@@ -1072,7 +1065,7 @@ e Practice «jj
 
 ---
 
-## Source page 25
+## page 25
 
 ### 11. Delete notes.txt.   [ Hint- rm -f ] (-f for forcefully removing something.)
 
@@ -1125,7 +1118,7 @@ The an Command stands for Manual.
 
 ---
 
-## Source page 26
+## page 26
 
 Common Examples                     🎯
 View the manual for ls :
@@ -1174,7 +1167,7 @@ Can you find what px stands for?
 
 ---
 
-## Source page 27
+## page 27
 
 Alternates of ( man )   🤔 hein ?
 You may ask “why we need alternates of man as it gives very good detailing of a
@@ -1212,7 +1205,7 @@ Backup Desktop/
 
 ---
 
-## Source page 28
+## page 28
 
 Linux provides the clear command to clean the terminal screen.
 
@@ -1245,7 +1238,7 @@ e Practice
 
 ---
 
-## Source page 29
+## page 29
 
 Have you ever forgotten a command you typed a few minutes ago?
 Linux keeps a record of previously used commands.
@@ -1288,7 +1281,7 @@ e Practice ))
 
 ---
 
-## Source page 30
+## page 30
 
 ### 15. Finding Files ( find )
 As your data becomes larger, it becomes harder to remember where every file is
@@ -1328,7 +1321,7 @@ The first word, ‘inc, is simply the command we're using.
 
 ---
 
-## Source page 31
+## page 31
 
 So in our find command:
 
@@ -1374,7 +1367,7 @@ e Practice #))
 
 ---
 
-## Source page 32
+## page 32
 
 # search for your own created file
 ```bash
@@ -1409,7 +1402,7 @@ Create a file somewhere and try finding it... its quite fun right?
 
 ---
 
-## Source page 33
+## page 33
 
 Reading a large file this way can quickly become frustrating.
 That's where the less command comes in.
@@ -1425,7 +1418,7 @@ $ less .bashre
 
 ---
 
-## Source page 34
+## page 34
 
 Like this.
 
@@ -1471,7 +1464,7 @@ e Practice
 
 ---
 
-## Source page 35
+## page 35
 
 But what if you want to actually write or edit something inside a file?   🤔
 Linux provides a simple text editor called nano .
@@ -1494,7 +1487,7 @@ Exit K Read File il Replace Paste WB Justify J Go To Line
 
 ---
 
-## Source page 36
+## page 36
 
 Unlike cat or less , you can actually edit the file here.
 
@@ -1527,7 +1520,7 @@ Save modified buffer?
 
 ---
 
-## Source page 37
+## page 37
 
 💡 Don't worry if this feels confusing at first. After using Nano a few times, it
 becomes very easy 😄
@@ -1573,7 +1566,7 @@ e Practice i)
 
 ---
 
-## Source page 38
+## page 38
 
 4. Windows and Linux are different operating systems.
 5. Many server environments run on Linux.
@@ -1605,7 +1598,7 @@ Instead of showing the entire file, only displayed the lines containing the
 
 ---
 
-## Source page 39
+## page 39
 
 That's what makes it so useful.
 
@@ -1646,7 +1639,7 @@ e Practice i)
 
 ---
 
-## Source page 40
+## page 40
 
 Add around 12–15 lines of text (anything you like) and save the file.
 Now read the entire file:
@@ -1689,7 +1682,7 @@ Add around 12-15 lines of text (anything you like) and save the file.
 
 ---
 
-## Source page 41
+## page 41
 
 That's where the head command comes in          😎
 
@@ -1732,7 +1725,7 @@ You can use the -; option to choose how many lines you want to see.
 
 ---
 
-## Source page 42
+## page 42
 
 This will display the first 9 lines.
 Think of -n as telling Linux:
@@ -1778,7 +1771,7 @@ e Practice (i)
 
 ---
 
-## Source page 43
+## page 43
 
 Notice the difference?     😎
 Instead of showing the first 10 lines, Linux displayed the last 10 lines of the file.
@@ -1814,7 +1807,7 @@ $ tail -n 5 practice.txt
 
 ---
 
-## Source page 44
+## page 44
 
 The -n option stands for Number and lets you choose how many lines to display.
 
@@ -1869,7 +1862,7 @@ e Practice @)
 
 ---
 
-## Source page 45
+## page 45
 
 ### 21. Counting Text ( wc )
 Sometimes you may want to know:
@@ -1908,7 +1901,7 @@ The we command stands for Word Count.
 
 ---
 
-## Source page 46
+## page 46
 
 💡     -l   stands for Lines.
 
@@ -1962,7 +1955,7 @@ e Practice
 
 ---
 
-## Source page 47
+## page 47
 
 Finding something in a random list can be difficult.
 Linux provides the sort command to arrange text in alphabetical order.
@@ -1990,7 +1983,7 @@ Lg sort fruits.txt
 
 ---
 
-## Source page 48
+## page 48
 
 Sorted Output
 
@@ -2029,7 +2022,7 @@ e Connecting Commands ( | )
 
 ---
 
-## Source page 49
+## page 49
 
 Let's try with an example:
 
@@ -2071,7 +2064,7 @@ The output of cst is sent directly to wc.
 
 ---
 
-## Source page 50
+## page 50
 
 This shows only the beginning of your command history.
 Without the pipe, history might display hundreds of commands   😅
@@ -2108,7 +2101,7 @@ e Practice «i
 
 ---
 
-## Source page 51
+## page 51
 
 Save the file and return to the terminal.
 Now let's see the contents:
@@ -2131,7 +2124,7 @@ Lg nig names. txt
 
 ---
 
-## Source page 52
+## page 52
 
 Notice something?   🤔
 Some duplicate lines disappeared.
@@ -2166,7 +2159,7 @@ GNU nano 8.7.1
 
 ---
 
-## Source page 53
+## page 53
 
 linux
 
@@ -2213,7 +2206,7 @@ e Practice “|
 
 ---
 
-## Source page 54
+## page 54
 
 3. Create a file named students.txt.
 
@@ -2266,7 +2259,7 @@ Use pipes to complete the following:
 
 ---
 
-## Source page 55
+## page 55
 
 3. What is the difference between head and tail?
 
@@ -2311,7 +2304,7 @@ e Practice «)
 
 ---
 
-## Source page 56
+## page 56
 
 Imagine someone gives you a file named:
 
@@ -2352,7 +2345,7 @@ Y Linux does not rely on file extensions like Windows. It looks at the actual
 
 ---
 
-## Source page 57
+## page 57
 
 Why is this Useful?
 Suppose you download a file named:
@@ -2401,7 +2394,7 @@ e Practice «)
 
 ---
 
-## Source page 58
+## page 58
 
 The answer is yes, we can create our own commands, but before that, we should
 know where Linux stores the commands that already exist.
@@ -2429,7 +2422,7 @@ In simple words, this is the location of the ca: command on the system.
 
 ---
 
-## Source page 59
+## page 59
 
 Notice something?          👀
 Every command we checked, points to the same location:
@@ -2469,7 +2462,7 @@ L cat
 
 ---
 
-## Source page 60
+## page 60
 
 Now list the files inside:
 
@@ -2514,7 +2507,7 @@ Just a few minutes ago, commands like nanc, orep, aNd find were simply things
 
 ---
 
-## Source page 61
+## page 61
 
 ### 27. Finding More Information ( whereis )
 Previously, we used the which command to find where a command is stored.
@@ -2557,7 +2550,7 @@ Unlike wich, the whereis command can show multiple locations related to a
 
 ---
 
-## Source page 62
+## page 62
 
 which         → Where is the command?
 whereis → Show me everything related to this command.
@@ -2606,7 +2599,7 @@ Instead of showing a simple list like is, tree displays files and directories in
 
 ---
 
-## Source page 63
+## page 63
 
 touch Notes/linux.txt
 touch Images/photo.png                       # Make files in the directorie
@@ -2660,7 +2653,7 @@ And if your is one of them...don't worry
 
 ---
 
-## Source page 64
+## page 64
 
 You will learn installing soon. Till then
 
@@ -2694,7 +2687,7 @@ s notes. txt
 
 ---
 
-## Source page 65
+## page 65
 
 So now we have two situations:
 
@@ -2732,7 +2725,7 @@ Understanding the Command V
 
 ---
 
-## Source page 66
+## page 66
 
 👉🏻      echo "Linux helps me manage servers" | tee notes.txt
 
@@ -2777,7 +2770,7 @@ Think of ‘ce as a splitter.
 
 ---
 
-## Source page 67
+## page 67
 
 motivation.txt
 
@@ -2822,7 +2815,7 @@ mmm Hello
 
 ---
 
-## Source page 68
+## page 68
 
 Add the following line:
 
@@ -2859,7 +2852,7 @@ mmm linux_admin_beginner
 
 ---
 
-## Source page 69
+## page 69
 
 Notice the underscore ( _ ) between the words         👀
 Linux interprets this line as:
@@ -2894,7 +2887,7 @@ Which is Linux in our case as you can see         👇
 
 ---
 
-## Source page 70
+## page 70
 
 What if we want second word ? For that we just need to change value of f from f1
 to f2:
@@ -2932,7 +2925,7 @@ GNU nano 9.0 users.txt *
 
 ---
 
-## Source page 71
+## page 71
 
 What I notice      😄
 This time the separator is not _ .
@@ -2979,7 +2972,7 @@ Mouse Logitech 1200
 
 ---
 
-## Source page 72
+## page 72
 
 ```bash
 cut -d "_" -f1 products.txt
@@ -3023,7 +3016,7 @@ GNU nano 9.0 names .txt
 
 ---
 
-## Source page 73
+## page 73
 
 Now create another file:
 
@@ -3055,7 +3048,7 @@ Mike Tokyo
 
 ---
 
-## Source page 74
+## page 74
 
 Nice     😄
 Linux joined both files line by line.
@@ -3091,7 +3084,7 @@ Now run:
 
 ---
 
-## Source page 75
+## page 75
 
 What I notice      😄
 We combined three files instead of two.
@@ -3134,7 +3127,7 @@ e Practice
 
 ---
 
-## Source page 76
+## page 76
 
 Apple
 Banana
@@ -3172,7 +3165,7 @@ Linux provides a simple command for this:
 
 ---
 
-## Source page 77
+## page 77
 
 💡        diff
 
@@ -3204,7 +3197,7 @@ Linux - A Complete Cou 7
 
 ---
 
-## Source page 78
+## page 78
 
 2nd file
 
@@ -3233,7 +3226,7 @@ g While in file2.txt:
 
 ---
 
-## Source page 79
+## page 79
 
 Bash was present.
 
@@ -3281,7 +3274,7 @@ e Practice «))
 
 ---
 
-## Source page 80
+## page 80
 
 ### 33. Transforming Text ( tr )
 Take a look at this 👀
@@ -3316,7 +3309,7 @@ LINUX IS AWESOME :
 
 ---
 
-## Source page 81
+## page 81
 
 ```bash
 echo "server maintenance" | tr a-z A-Z
@@ -3353,7 +3346,7 @@ e Another Example |)
 
 ---
 
-## Source page 82
+## page 82
 
 ```bash
 echo "devops-devops-devops" | tr "-" "_"
@@ -3399,7 +3392,7 @@ e Practice “|
 
 ---
 
-## Source page 83
+## page 83
 
 So far, we've created many files and directories.
 But have you ever wondered how much space they are using?   🤔
@@ -3437,7 +3430,7 @@ Linux has a command for this task: cu .
 
 ---
 
-## Source page 84
+## page 84
 
 Linux is showing how much space different files and directories are using.
 
@@ -3471,7 +3464,7 @@ The -» option stands for:
 
 ---
 
-## Source page 85
+## page 85
 
 which makes the output easier for humans to understand.
 Now let's check a specific directory.
@@ -3485,7 +3478,7 @@ Run:
 
 ---
 
-## Source page 86
+## page 86
 
 What I notice      😄
 Instead of showing every file and sub-directory, Linux only shows the final total.
@@ -3533,7 +3526,7 @@ e Practice ())
 
 ---
 
-## Source page 87
+## page 87
 
 Your browser and terminal uses memory.
 Even the operating system itself uses memory.
@@ -3572,7 +3565,7 @@ The -» option stands for Human Readable, same as du
 
 ---
 
-## Source page 88
+## page 88
 
 Let's understand the output.
 
@@ -3618,7 +3611,7 @@ Y Quick Tip
 
 ---
 
-## Source page 89
+## page 89
 
 ```bash
 free
@@ -3668,7 +3661,7 @@ The a command stands for Disk Filesystem.
 
 ---
 
-## Source page 90
+## page 90
 
 It is used to check how much storage space is available and how much has
 already been used.
@@ -3712,7 +3705,7 @@ tmpfs 2.4G 116K 2.4G 1% /run/user/1000
 
 ---
 
-## Source page 91
+## page 91
 
 💡       12G = 12 GB
 445G = 445 GB
@@ -3767,7 +3760,7 @@ Practice i)
 
 ---
 
-## Source page 92
+## page 92
 
 Which one is easier to understand?    😄
 Take a minute to explore the output and see what you can find   👀
