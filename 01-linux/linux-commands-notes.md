@@ -833,12 +833,8 @@ But what if we want to keep the old content and add new text too?
 
 ● Practice    👊🏼
 
- 
-
 ```text
-e Practice i)
-Q If the file already contains data, ~ will replace it with the new content.
-The - operator replaces old content.
+echo "add more content" >> `notes.txt`.
 ```
 
 
