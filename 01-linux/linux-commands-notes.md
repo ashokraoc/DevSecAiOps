@@ -350,13 +350,12 @@ The whoami command displays the username of the currently logged-in user, as
 mine is zoro.
 This is useful because Linux keeps track of who is performing actions on the
 system. Different users can have different permissions and access levels.
+
 💡 Many Linux systems are shared by multiple users, so knowing which account
 you are using is important.
 
 ● Practice 👊🏼
-"The lines starting with a hash (#) are comments, added to ma
-ke you understand
-things better"
+"The lines starting with a hash (#) are comments, added to make you understand things better"
 
 #### Open the terminal and run:
 ```bash
@@ -372,7 +371,7 @@ Ex: ec2-user // AWS
 
 ---
 
-## Page 9
+## Page 6
 
 ### 2. Where Am I? ( pwd )
 Imagine you are moving through many folders and suddenly forget where you are.
