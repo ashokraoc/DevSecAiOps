@@ -260,7 +260,7 @@ system administration, cybersecurity, or ethical hacking, a weak
 understanding of the fundamentals will slow your progress. Take the
 time to observe, understand, and practice every command with full
 
- 
+ 1. Basic Navigation Commands
 
 ```text
 pwd
@@ -295,7 +295,128 @@ cd /
 
 Moves to the root directory
 ```
+2. Create Files and Directories
 
+```text
+
+mkdir test
+
+Creates a directory named test
+
+touch a.txt
+
+Creates an empty file named a.txt
+
+echo "Hello Linux"
+
+Prints text on the terminal
+
+echo "Hello Linux" > a.txt
+
+Writes text into a.txt
+
+Note: The > operator overwrites the existing content of a file. If the file does not exist, it creates a new file.
+
+```
+
+3. View File Content
+
+```text
+cat a.txt
+Displays the content of a file
+
+man ls
+Displays the manual page for the ls command
+
+ls --help
+Displays help information for the ls command
+
+```
+
+4. Copy, Move and Delete
+
+```text
+cp a.txt b.txt
+
+Copies a.txt to b.txt
+
+cp -r test backup
+
+Copies a directory and its contents recursively
+
+mv a.txt b.txt
+Renames or moves a file
+
+rm a.txt
+Deletes a file
+
+rmdir test
+Deletes an empty directory
+
+rm -r test
+Deletes a directory and its contents recursively
+
+Important: Be careful with the rm command. Deleted files may not be recoverable.
+
+```
+
+5. Search Files and Directories
+
+```text
+find . -name b.txt
+
+find — searches for files and directories
+
+. — starts the search from the current directory
+
+-name — specifies the name to search for
+
+b.txt — the file name to search
+
+```
+
+6. Other Useful Commands
+
+```text
+clear
+Clears the terminal screen
+
+history
+Displays previously entered commands
+
+whatis ls
+Displays a brief description of the command
+
+info ls
+Displays information about the command
+
+```
+
+
+7. Important Directory References
+
+```text
+/
+Root directory of the Linux filesystem
+
+~
+User's home directory
+
+.
+Current directory
+
+..
+Parent directory
+
+Example:
+
+cd ~
+Takes you to your user's home directory.
+
+cd /
+Takes you to the root directory.
+
+```
 
 ---
 
