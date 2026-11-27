@@ -70,11 +70,12 @@ confidently.<br/>
 
 ## Page 3
 * Linux is used in supercomputers, cloud platforms, and even space technology.
-<br/>
+
 These notes are useful even when Linux is new to me this guide is designed for
 complete beginners.
 
-↘ Why Use Linux for Cybersecurity?<br/>
+#### Why Use Linux for Cybersecurity?
+
 Linux is the most widely used operating system in the cybersecurity world. Many security professionals, ethical hackers, penetration testers, and system administrators use Linux as their primary operating system. Some reasons why Linux is preferred in cybersecurity are:
 - It is free and open source.
 - It provides powerful command-line tools.
@@ -83,7 +84,7 @@ Linux is the most widely used operating system in the cybersecurity world. Many 
 - It is widely used on servers and cloud platforms.
 - It is considered stable and secure.
 
-Popular cybersecurity distributions such as:
+#### Popular cybersecurity distributions such as:
 - Kali Linux
 - Parrot OS, and
 - BlackArch
@@ -91,20 +92,21 @@ are based on Linux and come with many security tools pre-installed.
 For anyone interested in cybersecurity, learning Linux is one of the most important
 skills to develop.
 
-↘ Linux Distributions
+#### Linux Distributions
 Imagine three people want to use Linux:
 👨‍🎓 A student wants an easy system.
 👨‍💻 A cybersecurity learner wants hacking tools.
 🖥️ A company wants a stable server.
 
 Should all of them use the same Linux version?
-
 Probably not.
+
 Linux is not a single operating system that looks the same everywhere. Instead, it
 comes in many versions called Distributions (Distros), each created to meet
 different needs and preferences.
-<br/>
-● Why Are There Different Distributions?
+<br/><br/>
+
+- Why Are There Different Distributions?
 
 | User Type                             | Best Choice
 | ---                                   | ---
@@ -132,18 +134,19 @@ easier and more useful.
 
 ---
 
-## Page 5
+## Page 4
 
 #### Ready to Use Linux?
 So far, we have learned:<br/>
-✅     What Linux is<br/>
-✅     Why Linux is important<br/>
-✅     Why Linux is widely used in cybersecurity<br/>
-✅     Different Linux distributions<br/>
+✅ What Linux is<br/>
+✅ Why Linux is important<br/>
+✅ Why Linux is widely used in cybersecurity<br/>
+✅ Different Linux distributions<br/>
 ⛔ Now it's time to stop reading about Linux and start using it.<br/>
 
 From this point onward, you'll learn the commands used every day by Linux users, system administrators, and cybersecurity professionals. This is where the real Linux journey begins.
 <br/>
+
 Let's start with the most important tool in Linux: The Terminal.
 
 ## The Terminal
