@@ -434,7 +434,10 @@ ls -R /etc
 ```
 
 #### 3. Understanding ls -l output
+Example:
+```text
 -rw-r--r-- 1 user user 1024 Nov 27 10:00 notes.txt
+```
 
 | Part	| Meaning
 | ---   | ---
@@ -446,7 +449,7 @@ ls -R /etc
 | Nov 27 10:00	| Last modification date and time
 | notes.txt	| File name
 
-### Remember: Hidden files in Linux start with a dot (.), such as .bashrc. Use ls -a to see them.
+###### Remember: Hidden files in Linux start with a dot (.), such as .bashrc. Use ls -a to see them.
 ---
 
 ## Page 7
