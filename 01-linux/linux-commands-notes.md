@@ -191,167 +191,151 @@ system administration, cybersecurity, or ethical hacking, a weak
 understanding of the fundamentals will slow your progress. Take the
 time to observe, understand, and practice every command with full
 
- 1. Basic Navigation Commands
+#### 1. Basic Navigation Commands
 
 ```text
 pwd
-
-Displays the present working directory
+# Displays the present working directory
 
 ls
-
-Lists files and directories in the current directory
+# Lists files and directories in the current directory
 
 ls -a
-
-Lists all files and directories, including hidden files
+# Lists all files and directories, including hidden files
 
 cd directory-name
-
-Changes to the specified directory
+# Changes to the specified directory
 
 cd ..
-
-Moves to the parent directory
+# Moves to the parent directory
 
 cd .
-
-Refers to the current directory
+# Refers to the current directory
 
 cd ~
-
-Moves to the user's home directory
+# Moves to the user's home directory
 
 cd /
-
-Moves to the root directory
+# Moves to the root directory
 ```
-2. Create Files and Directories
+
+#### 2. Create Files and Directories
 
 ```text
 
 mkdir test
-
-Creates a directory named test
+# Creates a directory named test
 
 touch a.txt
-
-Creates an empty file named a.txt
+# Creates an empty file named a.txt
 
 echo "Hello Linux"
-
-Prints text on the terminal
+# Prints text on the terminal
 
 echo "Hello Linux" > a.txt
+#  Writes text into a.txt
 
-Writes text into a.txt
-
-Note: The > operator overwrites the existing content of a file. If the file does not exist, it creates a new file.
+# Note: <br/>
+The > operator overwrites the existing content of a file. If the file does not exist, it creates a new file.
 
 ```
 
-3. View File Content
+#### 3. View File Content
 
 ```text
 cat a.txt
-Displays the content of a file
+# Displays the content of a file
 
 man ls
-Displays the manual Page for the ls command
+# Displays the manual Page for the ls command
 
 ls --help
-Displays help information for the ls command
+# Displays help information for the ls command
 
 ```
 
-4. Copy, Move and Delete
+#### 4. Copy, Move and Delete
 
 ```text
 cp a.txt b.txt
-
-Copies a.txt to b.txt
+# Copies a.txt to b.txt
 
 cp -r test backup
-
-Copies a directory and its contents recursively
+# Copies a directory and its contents recursively
 
 mv a.txt b.txt
-Renames or moves a file
+# Renames or moves a file
 
 rm a.txt
-Deletes a file
+# Deletes a file
 
 rmdir test
-Deletes an empty directory
+# Deletes an empty directory
 
 rm -r test
-Deletes a directory and its contents recursively
-
-Important: Be careful with the rm command. Deleted files may not be recoverable.
+# Deletes a directory and its contents recursively
+#### Important:<br/>
+Be careful with the rm command. Deleted files may not be recoverable.
 
 ```
 
-5. Search Files and Directories
+#### 5. Search Files and Directories
 
 ```text
 find . -name b.txt
-
-find — searches for files and directories
+# find — searches for files and directories
 
 . — starts the search from the current directory
-
 -name — specifies the name to search for
 
 b.txt — the file name to search
 
 ```
 
-6. Other Useful Commands
+#### 6. Other Useful Commands
 
 ```text
 clear
-Clears the terminal screen
+# Clears the terminal screen
 
 history
-Displays previously entered commands
+# Displays previously entered commands
 
 whatis ls
-Displays a brief description of the command
+# Displays a brief description of the command
 
 info ls
-Displays information about the command
-
+# Displays information about the command
 ```
 
 
-7. Important Directory References
+##### 7. Important Directory References
 
 ```text
 /
-Root directory of the Linux filesystem
+# Root directory of the Linux filesystem
 
 ~
-User's home directory
+# User's home directory
 
 .
-Current directory
+# Current directory
 
 ..
-Parent directory
+# Parent directory
 
 Example:
 
 cd ~
-Takes you to your user's home directory.
+# Takes you to your user's home directory.
 
 cd /
-Takes you to the root directory.
-
+# Takes you to the root directory.
 ```
 
 ---
 
-## Page 8
+## Page 5
 
 attention and interest. Mastering these basics today will make learning
 advanced Linux topics significantly easier tomorrow.
@@ -370,7 +354,7 @@ system. Different users can have different permissions and access levels.
 💡 Many Linux systems are shared by multiple users, so knowing which account
 you are using is important.
 
-● Practice       👊🏼
+● Practice 👊🏼
 "The lines starting with a hash (#) are comments, added to ma
 ke you understand
 things better"
