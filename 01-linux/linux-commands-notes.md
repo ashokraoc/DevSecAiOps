@@ -132,16 +132,14 @@ easier and more useful.
 
 | Distribution             | Best For               | Difficulty |
 | ---                      | ---                    | ---
-| Ubuntu                     | Beginners                 ⭐
-| Linux Mint                 | Windows Users             ⭐
-| Fedora                     | Developers                ⭐⭐
-| Debian                     | Servers                   ⭐⭐⭐
-| Kali Linux                 | Cybersecurity             ⭐⭐⭐
-| Parrot OS                  | Cybersecurity & Privacy   ⭐⭐⭐
-| OpenWrt                    | Routers & Networking
-                               Devices                    ⭐⭐⭐
-| Arch Linux                 | Advanced Users & Learning
-                               Linux Deeply              ⭐⭐⭐⭐
+| Ubuntu                   | Beginners              | ⭐
+| Linux Mint               | Windows Users          | ⭐
+| Fedora                   | Developers             | ⭐⭐
+| Debian                   | Servers                | ⭐⭐⭐
+| Kali Linux               | Cybersecurity          |  ⭐⭐⭐
+| Parrot OS                | Cybersecurity & Privacy |  ⭐⭐⭐
+| OpenWrt                  | Routers & Networking Devices | ⭐⭐⭐
+| Arch Linux               | Advanced Users & Learning Linux Deeply | ⭐⭐⭐⭐
 
 
 Desktop Preview
