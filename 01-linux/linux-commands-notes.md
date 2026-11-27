@@ -454,18 +454,18 @@ Example:
 
 ## Page 7
 
-● Practice        👊🏼
-# Open the terminal and run:
+● Practice 👊🏼
+##### Open the terminal and run:
 
 ```bash
 ls         # list directories
 ```
 
-# Note: Folders are called Directories in linux.
+##### Note: Folders are called Directories in linux.
 
 Can you identify any files or folders in your current directory?‘
 
-# Blue colored text means directories and white in colour are
+##### Blue colored text means directories and white in colour are
 files
 Example: files & Directory
 
