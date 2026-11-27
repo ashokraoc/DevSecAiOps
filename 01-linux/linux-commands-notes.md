@@ -17,7 +17,7 @@
 
 💡
 🎯 Introduction
-◦ Welcome to Linux PDF…
+◦ Welcome to Linux GitHub Notes
 
 These are my working notes for learning Linux administration, cloud and DevOps fundamentals, and security-related tasks.
 Linux is one of the most widely used operating systems in the world and plays an
@@ -44,9 +44,9 @@ By the end of this course, you will have the knowledge and confidence to work
 comfortably in a Linux environment and continue exploring more advanced topics.
 I’ll build my Linux skills step by step.
 
-↘ Introduction to Linux…
+↘ Introduction to Linux<br/>
 Have you ever wondered what powers websites like Google, YouTube, Instagram,
-and millions of servers around the world?
+and millions of servers around the world?<br/>
 The answer is often Linux.
 1. Linux is an operating system, just like Windows and macOS. It helps you
 interact with your computer, manage files, run programs, and use hardware
@@ -60,34 +60,33 @@ technology, programming, cloud computing, system administration, or
 cybersecurity.
 4. I’m starting with the fundamentals and gradually learn how
 Linux works, how to use the terminal, and how to perform real-world tasks
-confidently.
+confidently.<br/>
 💡 Do You Know?
-● Android is based on Linux kernel.
-● Most websites you visit every day run on Linux servers.
-● Many cybersecurity professionals use Linux as their primary operating
+- Android is based on Linux kernel.
+- Most websites you visit every day run on Linux servers.
+- Many cybersecurity professionals use Linux as their primary operating
 
 ---
 
 ## Page 3
-
-system.
-● Linux is used in supercomputers, cloud platforms, and even space
-technology.
-These notes are useful even when Linux is new to me—this guide is designed for
+* Linux is used in supercomputers, cloud platforms, and even space technology.
+<br/>
+These notes are useful even when Linux is new to me this guide is designed for
 complete beginners.
 
-↘ Why Use Linux for Cybersecurity?
-Linux is the most widely used operating system in the cybersecurity world. Many
-security professionals, ethical hackers, penetration testers, and system
-administrators use Linux as their primary operating system.
-Some reasons why Linux is preferred in cybersecurity are:
-It is free and open source.
-It provides powerful command-line tools.
-Most cybersecurity tools are built for Linux.
-It offers better control over the system.
-It is widely used on servers and cloud platforms.
-It is considered stable and secure.
-Popular cybersecurity distributions such as Kali Linux, Parrot OS, and BlackArch
+↘ Why Use Linux for Cybersecurity?<br/>
+Linux is the most widely used operating system in the cybersecurity world. Many security professionals, ethical hackers, penetration testers, and system administrators use Linux as their primary operating system. Some reasons why Linux is preferred in cybersecurity are:
+- It is free and open source.
+- It provides powerful command-line tools.
+- Most cybersecurity tools are built for Linux.
+- It offers better control over the system.
+- It is widely used on servers and cloud platforms.
+- It is considered stable and secure.
+
+Popular cybersecurity distributions such as:
+- Kali Linux
+- Parrot OS, and
+- BlackArch
 are based on Linux and come with many security tools pre-installed.
 For anyone interested in cybersecurity, learning Linux is one of the most important
 skills to develop.
@@ -97,34 +96,24 @@ Imagine three people want to use Linux:
 👨‍🎓 A student wants an easy system.
 👨‍💻 A cybersecurity learner wants hacking tools.
 🖥️ A company wants a stable server.
+
 Should all of them use the same Linux version?
-
- 
-
-```text
-Linux is used in supercomputers, cloud platforms, and even space
-A student wants an easy system.
-A cybersecurity learner wants hacking tools.
-```
-
-
----
-
-## Page 4
 
 Probably not.
 Linux is not a single operating system that looks the same everywhere. Instead, it
 comes in many versions called Distributions (Distros), each created to meet
 different needs and preferences.
-
+<br/>
 ● Why Are There Different Distributions?
 
-User Type                                Best Choice
-Beginner                                 Ubuntu, Linux Mint
-Developer                                Fedora
-Cybersecurity Learner                    Kali Linux, Parrot OS
-Server Administrator                     Debian
-Old Computer User                        Linux Lite
+| User Type                             | Best Choice
+| ---                                   | ---
+| Beginner                              | Ubuntu, Linux Mint
+| Developer                             | Fedora
+| Cybersecurity Learner                 | Kali Linux, Parrot OS
+| Server Administrator                  | Debian
+| Old Computer User                     | Linux Lite
+
 Different users have different needs, so different distributions exist to make Linux
 easier and more useful.
 
