@@ -1048,16 +1048,13 @@ To copy a directory and everything inside it:
 ```bash
 cp -r Linux_Practice Backup
 ```
-# -r for coping every single file and sub-folders of linux_pr
-actice to backup.
+# -r for coping every single file and sub-folders of linux_practice to backup.
 Without -r, cp cannot copy sub-folders and file.
 
-Common Examples                 🎯
-
- 
+Common Examples 🎯
 
 ```text
-> cp -r Linux Practice Backup
+> cp -r Linux_Practice Backup_Linux_Practice
 ```
 
 
@@ -1086,28 +1083,24 @@ ls
 
 Can you see both notes.txt and backup.txt?
 
-### 11. Moving & Renaming ( mv )
-Sometimes you may want to move a file to another location or simply rename it.
-Linux provides the mv command for this.
-
-Renaming Files :)
-To rename a file:
-
- 
-
-```text
-e Practice ©)
-Linux provides the »y command for this.
-```
 
 
 ---
 
 ## page 23
 
-# rename notes.txt to mynotes.txt
+### 11. Moving & Renaming ( mv )
+Sometimes you may want to move a file to another location or simply rename it.
+Linux provides the mv command for this.
+
+Renaming Files :)
+
+To rename a file:
+```text
+# rename file1.txt to Linux_notes.md
+```
 ```bash
-mv notes.txt mynotes.txt
+mv file1.txt Linux_notes.md
 ```
 
 The file name will change, but the contents will remain the same.
@@ -1127,21 +1120,32 @@ What is mv ?
 The mv command stands for Move.
 It is used to move or rename files and directories.
 
-Common Examples                🎯
+Common Examples 🎯
 Rename a file:
-
-Move a file:
-
-Rename a directory:
-
- 
-
-```text
-d.txt Desktop/
-Desktop2 Backup
+```bash
+mv a.txt b.txt
 ```
+Move a file:
+```bash
+mv b.txt Documents/
+```
+Rename a directory:
+```bash
+mv Linux Linux_Practice
+```
+Move a directory:
+```bash
+mv Linux Linux_Practice/
+```
+## Practice yourself
+Rename a file:
+```text
+# rename backup.md
+mv backup.md backup_old.md
 
-
+# verify the change
+ls
+```
 ---
 
 ## page 24
