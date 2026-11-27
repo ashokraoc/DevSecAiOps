@@ -151,11 +151,11 @@ So far, we have learned:<br/>
 ✅     Why Linux is important<br/>
 ✅     Why Linux is widely used in cybersecurity<br/>
 ✅     Different Linux distributions<br/>
-⛔ Now it's time to stop reading about Linux and start using it.<br/><br/><br/>
-From this point onward, you'll learn the commands used every day by Linux users,<br/>
-system administrators, and cybersecurity professionals.<br/>
-This is where the real Linux journey begins.<br/>
-Let's start with the most important tool in Linux: The Terminal.<br/>
+⛔ Now it's time to stop reading about Linux and start using it.<br/>
+
+From this point onward, you'll learn the commands used every day by Linux users, system administrators, and cybersecurity professionals. This is where the real Linux journey begins.
+<br/>
+Let's start with the most important tool in Linux: The Terminal.
 
 ## The Terminal
 ### What is the Terminal?
