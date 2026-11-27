@@ -935,34 +935,35 @@ ls
 
 Verify that it was deleted:
 
-Removing Empty Directories                          ▶
+Removing Empty Directories ▶
 To remove an empty directory, use:
 
-💡     rmdir      only works if the directory is empty.
+```bash
+rmdir file1.txt
+#only works if the directory is empty.
+```
 
-Removing Directories with Files Inside                        ▶
+
+Removing Directories with Files Inside ▶
 If a directory contains files, use:
 
 What does -r mean?
--r = Recursive            ...     # What does this mean ??
+-r = Recursive ... # What does this mean ??
 
-It simply means that remove the directory along with all th
-e files and
-folders present in it.
+It simply means that remove the directory along with all the files and folders present in it.
 
 It tells Linux to remove the directory and all files/sub-directories inside it.
 
-Common Examples                       🎯
+Common Examples 🎯
 Delete a file:
 
- 
+```bash
+rmdir file1
+#only works if the directory is empty.
 
-```text
-Removing Empty Directories [J
-be txt
-Removing Directories with Files Inside [9
+rm -r file1
+# to remove files and sub directories inside file1 directory.
 ```
-
 
 ---
 
@@ -984,7 +985,7 @@ Delete a directory containing files:
 rm -r Linux_Practice
 ```
 
-● Practice      👊🏼
+● Practice 👊🏼
 Create a test directory:
 
 ```bash
@@ -996,8 +997,7 @@ Create a file inside it:
 ```bash
 touch TestFolder/test.txt
 ```
-# Using this we can create file named test.txt inside TestFol
-der
+# Using this we can create file named test.txt inside TestFolder
 
 Now remove the directory and everything inside it:
 
@@ -1013,21 +1013,13 @@ ls
 
 Can you still see TestFolder?
 
-### 10. Copying Files & Directories ( cp )
-
- 
-
-```text
-e Practice i)
-```
-
-
 ---
 
 ## page 21
 
-Sometimes you may want to create a copy of a file or directory instead of
-modifying the original one.
+### 10. Copying Files & Directories ( cp )
+
+Sometimes you may want to create a copy of a file or directory instead of modifying the original one.
 Linux provides the cp command for this.
 
 ⍩ Copying Files
@@ -1037,13 +1029,13 @@ To create a copy of a file:
 ```bash
 cp notes.txt backup.txt
 ```
-# 1st write file or directory which we want to copy then wher
-e to copy.
+# 1st write file or directory which we want to copy then where to copy.
 
 Now both files will exist:
-
+```text
 notes.txt
 backup.txt
+```
 
 What is cp ?
 The cp command stands for Copy.
