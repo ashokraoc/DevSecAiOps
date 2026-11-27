@@ -547,26 +547,28 @@ Is -a = Shows all files, including hidden ones
 9 In Linux, files and directories that start with a dot ( . ) are hidden by default,
 ```
 
-
----
-
-## page 11
-
 better understanding
 Examples:
 
 .bashrc
 .config
 .profile
-# These are files hidden in home "~" directory of the user.
+#### These are files hidden in home "~" directory of the user.
 
 ● Practice          👊🏼
-# show all files, including hidden ones
+#### show all files, including hidden ones
 ls -a
 
 Can you find any files or directories that were not visible when you used ls ?
 
-### 4. Moving Around ( cd )
+
+
+
+---
+
+# page 11
+
+## 4. Moving Around ( cd )
 You can now see the files and folders in your current location.
 But how do you enter one of those folders?
 Linux provides the cd command for this.
@@ -602,8 +604,8 @@ cd Documents
 
 Go back one directory:
 
-# .          means "where you are right now"
-# .. means "go one folder back"
+#### .means "where you are right now"
+#### .. means "go one folder back"
 
 ```bash
 cd ..
@@ -611,8 +613,8 @@ cd ..
 
 Go to your Home directory:
 
-# Tilde (~) represents user's home directory.
-# Every user have their own home directory.
+#### Tilde (~) represents user's home directory.
+#### Every user have their own home directory.
 ```bash
 cd ~
 ```
@@ -630,17 +632,15 @@ pwd           # print working Directory
 Did your location change?
 2. Run:
 
-# /home contains the home directories of all users.
+#### /home contains the home directories of all users.
 ```bash
 cd /home
 ```
 ```bash
-ls    # Here you see user names, most probably only one use
+ls    # Here you see user names, most probably only one user will be there,
 ```
-r will be there,
-#   Which is you
 
- 
+#### Which is you
 
 ```text
 > cd...
