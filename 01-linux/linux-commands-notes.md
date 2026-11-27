@@ -878,9 +878,10 @@ First, create a file:
  
 
 ```text
-The most common use of «at is to view the contents of a file.
-> cat filel.txt file2.txt
-e Practice ©)
+touch file1.txt file2.txt
+echo "This contant is form file1.txt" > file1.txt
+echo "This contant is form file2.txt" > file2.txt
+cat file1.txt file2.txt
 ```
 
 
