@@ -879,8 +879,8 @@ First, create a file:
 
 ```text
 touch file1.txt file2.txt
-echo "This contant is form file1.txt" > file1.txt
-echo "This contant is form file2.txt" > file2.txt
+echo This content is form file1.txt > file1.txt
+echo "This content is form file2.txt" > file2.txt
 cat file1.txt file2.txt
 ```
 
@@ -917,21 +917,17 @@ Can you see the text stored inside the file?
 ### 9. Removing Files & Directories ( rm )
 Sometimes files and directories are no longer needed.
 Linux provides the rm command to remove them.
-⚠️ Be careful when using . Unlike Windows, deleted files usually do not go to a
-rm
+⚠️ Be careful when using . Unlike Windows, deleted files usually do not go to Recycle Bin.
 
-Recycle Bin.
-
-Removing Files            ▶
 Delete a file:
 
- 
-
-```text
-Removing Files [J
-la.txt b.txt
+```bash
+rm file1.txt
 ```
-
+```bash
+ls
+# list the files to confirm file1.txt has been deleted
+```
 
 ---
 
