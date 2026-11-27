@@ -834,7 +834,7 @@ But what if we want to keep the old content and add new text too?
 ● Practice    👊🏼
 
 ```text
-echo "add more content" >> `notes.txt`.
+echo "add more content" >> notes.txt
 ```
 
 
