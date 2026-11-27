@@ -1,9 +1,5 @@
 # Linux — My Personal GitHub Notes
 
-> Draft for my review: wording and illustrative examples have been rewritten. Commands and technical terms are kept accurate; I will verify examples before publishing.
-
-> Personal Linux reference notes written in my own study style. I have reworded explanations, replaced recognizable analogies and examples, and retained the commands and core learning topics for practice.
-
 ## Contents
 
 - Linux introduction and distributions
@@ -106,9 +102,9 @@ Should all of them use the same Linux version?
  
 
 ```text
-e Linux is used in supercomputers, cloud platforms, and even space
-z A student wants an easy system.
-FS A cybersecurity learner wants hacking tools.
+Linux is used in supercomputers, cloud platforms, and even space
+A student wants an easy system.
+A cybersecurity learner wants hacking tools.
 ```
 
 
@@ -134,25 +130,22 @@ easier and more useful.
 
 ● Popular Linux Distributions
 
-Distribution               Best For                      Difficulty
-Ubuntu                     Beginners                 ⭐
-Linux Mint                 Windows Users             ⭐
-Fedora                     Developers                ⭐⭐
-Debian                     Servers                   ⭐⭐⭐
-Kali Linux                 Cybersecurity             ⭐⭐⭐
-Parrot OS                  Cybersecurity & Privacy   ⭐⭐⭐
-OpenWrt
-Routers & Networking
-Devices
-⭐⭐⭐
-Arch Linux
-Advanced Users & Learning
-Linux Deeply
-⭐⭐⭐⭐
-● Desktop Preview
+| Distribution             | Best For               | Difficulty |
+| ---                      | ---                    | ---
+| Ubuntu                     | Beginners                 ⭐
+| Linux Mint                 | Windows Users             ⭐
+| Fedora                     | Developers                ⭐⭐
+| Debian                     | Servers                   ⭐⭐⭐
+| Kali Linux                 | Cybersecurity             ⭐⭐⭐
+| Parrot OS                  | Cybersecurity & Privacy   ⭐⭐⭐
 
- 
+| OpenWrt                    | Routers & Networking
+                               Devices                    ⭐⭐⭐
+| Arch Linux                 | Advanced Users & Learning
+                               Linux Deeply              ⭐⭐⭐⭐
 
+
+Desktop Preview
 ```text
 e Why Are There Different Distributions?
 e Popular Linux Distributions
@@ -582,20 +575,8 @@ It allows you to move from one directory to another.
 💡 Think of a directory as a folder. The         cd   command lets you travel between
 folders in Linux.
 
- 
+#### Example
 
-```text
-e Practice «))
-Can you find any files or directories that were not visible when you used is ?
-Linux provides the ca command for this.
-```
-
-
----
-
-## page 12
-
-Common Examples
 Go to the Documents folder:
 
 ```bash
