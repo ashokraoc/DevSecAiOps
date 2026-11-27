@@ -263,8 +263,37 @@ time to observe, understand, and practice every command with full
  
 
 ```text
-the same way when they started, | felt the same too &
-In Linux, you'll use this pattern again and again (i)
+pwd
+
+Displays the present working directory
+
+ls
+
+Lists files and directories in the current directory
+
+ls -a
+
+Lists all files and directories, including hidden files
+
+cd directory-name
+
+Changes to the specified directory
+
+cd ..
+
+Moves to the parent directory
+
+cd .
+
+Refers to the current directory
+
+cd ~
+
+Moves to the user's home directory
+
+cd /
+
+Moves to the root directory
 ```
 
 
