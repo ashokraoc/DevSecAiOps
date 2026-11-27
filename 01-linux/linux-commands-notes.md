@@ -465,8 +465,9 @@ ls         # list directories
 
 Can you identify any files or folders in your current directory?‘
 
-##### Blue colored text means directories and white in colour are
-files
+##### Directories will be shown in Blue color
+##### Files will be shown in white color
+
 Example: files & Directory
 
 ✪ Hidden Files
