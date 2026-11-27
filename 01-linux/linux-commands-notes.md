@@ -417,6 +417,36 @@ Note: ls have some
 | ls -i | Show inode numbers
 | ls -S | Sort by file size, largest first
 | ls -r | Reverse the sorting order
+
+#### 2. Useful combinations
+```bash
+ls -lah
+# Show all files, including hidden files, with human-readable sizes.
+
+ls -lht
+# Show files in long format, human-readable sizes, newest first.
+
+ls -ltr
+# Show files in long format, oldest files first.
+
+ls -R /etc
+# List files and directories recursively under /etc.
+```
+
+#### 3. Understanding ls -l output
+-rw-r--r-- 1 user user 1024 Nov 27 10:00 notes.txt
+
+| Part	| Meaning
+| ---   | ---
+| -rw-r--r--	| File type and permissions
+| 1 | Number of hard links
+| user	| Owner
+| user	| Group
+| 1024	| File size in bytes
+| Nov 27 10:00	| Last modification date and time
+| notes.txt	| File name
+
+### Remember: Hidden files in Linux start with a dot (.), such as .bashrc. Use ls -a to see them.
 ---
 
 ## Page 7
