@@ -1017,7 +1017,7 @@ Can you still see TestFolder?
 
 ## page 21
 
-### 10. Copying Files & Directories ( cp )
+## 10. Copying Files & Directories ( cp )
 
 Sometimes you may want to create a copy of a file or directory instead of modifying the original one.
 Linux provides the cp command for this.
@@ -1025,11 +1025,11 @@ Linux provides the cp command for this.
 ## Copying Files
 
 --> To create a copy of a file:
-# copy notes.txt to backup.txt
+### copy notes.txt to backup.txt
 ```bash
 cp notes.txt backup.txt
 ```
-# 1st write file or directory which we want to copy then where to copy.
+### 1st write file or directory which we want to copy then where to copy.
 
 Now both files will exist:
 ```text
@@ -1044,11 +1044,11 @@ It is used to create copies of files and directories.
 ⍩ Copying Directories
 To copy a directory and everything inside it:
 
-# copy a directory and its contents
+### copy a directory and its contents
 ```bash
 cp -r Linux_Practice Backup_Practice
 ```
-# -r for coping every single file and sub-folders of linux_practice to backup.
+#### -r for coping every single file and sub-folders of linux_practice to backup.
 Without -r, cp cannot copy sub-folders and file.
 
 Common Examples 🎯
