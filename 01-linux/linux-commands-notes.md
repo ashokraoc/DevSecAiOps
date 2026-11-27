@@ -939,13 +939,13 @@ Removing Empty Directories ▶
 To remove an empty directory, use:
 
 ```bash
-rmdir file1.txt
+rmdir Linux
 #only works if the directory is empty.
 ```
 
 
 Removing Directories with Files Inside ▶
-If a directory contains files, use:
+If a directory contains files, use: -r
 
 What does -r mean?
 -r = Recursive ... # What does this mean ??
@@ -958,10 +958,10 @@ Common Examples 🎯
 Delete a file:
 
 ```bash
-rmdir file1
+rmdir folder_1
 #only works if the directory is empty.
 
-rm -r file1
+rm -r folder_1
 # to remove files and sub directories inside file1 directory.
 ```
 
@@ -1022,9 +1022,9 @@ Can you still see TestFolder?
 Sometimes you may want to create a copy of a file or directory instead of modifying the original one.
 Linux provides the cp command for this.
 
-⍩ Copying Files
-To create a copy of a file:
+## Copying Files
 
+--> To create a copy of a file:
 # copy notes.txt to backup.txt
 ```bash
 cp notes.txt backup.txt
@@ -1046,7 +1046,7 @@ To copy a directory and everything inside it:
 
 # copy a directory and its contents
 ```bash
-cp -r Linux_Practice Backup
+cp -r Linux_Practice Backup_Practice
 ```
 # -r for coping every single file and sub-folders of linux_practice to backup.
 Without -r, cp cannot copy sub-folders and file.
@@ -1120,7 +1120,7 @@ What is mv ?
 The mv command stands for Move.
 It is used to move or rename files and directories.
 
-Common Examples 🎯
+## Common Examples 🎯
 Rename a file:
 ```bash
 mv a.txt b.txt
