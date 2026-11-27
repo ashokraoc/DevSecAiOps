@@ -363,6 +363,7 @@ whoami
 ```
 Does Linux Show Your Username?
 
+
 ```text
 The whoami Command displays the username of the currently logged-in user.
 Ex: ec2-user // AWS
@@ -373,7 +374,7 @@ Ex: ec2-user // AWS
 
 ## Page 6
 
-### 2. Where Am I? ( pwd )
+### 1. Where Am I? ( pwd )
 Imagine you are moving through many folders and suddenly forget where you are.
 How can you check your current location?
 Linux provides a simple command for this:
@@ -382,15 +383,15 @@ What is pwd ?
 The pwd command stands for Print Working Directory.
 It displays the full path of the directory you are currently in.
 
-● Practice     👊🏼
-# Open the terminal and run:
+● Practice 👊🏼
+#### Open the terminal and run:
 ```bash
 pwd
 ```
 
 See What Path Linux Shows On Your System.
 
-### 3. What's Here? ( ls )
+### 2. What's Here? ( ls )
 Now that you know where you are, the next step is to see what files and folders
 are available in your current location.
 Linux provides a simple command for this:     👇🏼
@@ -399,22 +400,26 @@ What is ls ?
 The ls command stands for List.
 It displays the files and folders present in your current location.
 💡 This is one of the most commonly used Linux commands.
+Note: ls have some 
 
- 
-
-```text
-The pw Command stands for Print Working Directory.
-e Practice /))
-3. What's Here? ( is )
-Whatis is ?
-The is command stands for List.
-9 This is one of the most commonly used Linux commands.
-```
-
-
+#### 1. Basic ls options
+| Command | Description
+| ---     | ---
+| ls    | List files and directories
+| ls -l	| List in long format (permissions, owner, size, date)
+| ls -a | Show all files, including hidden files
+| ls -la  | Show all files in long format
+| ls -lh    | Show file sizes in human-readable format (KB, MB, GB)
+| ls -lt    | Sort by modification time, newest first
+| ls -ltr   | Sort by modification time, oldest first
+| ls -R | List files recursively in subdirectories
+| ls -d */  | List only directories
+| ls -i | Show inode numbers
+| ls -S | Sort by file size, largest first
+| ls -r | Reverse the sorting order
 ---
 
-## Page 10
+## Page 7
 
 ● Practice        👊🏼
 # Open the terminal and run:
