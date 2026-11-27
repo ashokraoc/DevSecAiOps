@@ -337,8 +337,7 @@ cd /
 
 ## Page 5
 
-attention and interest. Mastering these basics today will make learning
-advanced Linux topics significantly easier tomorrow.
+Paying attention to these fundamentals today will make learning advanced Linux concepts much easier tomorrow.
 
 ### 1. Who Am I? ( whoami )
 When you log in to Linux, you are using a specific user account.
@@ -359,18 +358,15 @@ you are using is important.
 ke you understand
 things better"
 
-# Open the terminal and run:
+#### Open the terminal and run:
 ```bash
 whoami
 ```
-
 Does Linux Show Your Username?
 
- 
-
 ```text
-The whoani Command displays the username of the currently logged-in user, as
-e Practice “/)
+The whoami Command displays the username of the currently logged-in user.
+Ex: ec2-user // AWS
 ```
 
 
