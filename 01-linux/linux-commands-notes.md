@@ -128,7 +128,7 @@ Old Computer User                        Linux Lite
 Different users have different needs, so different distributions exist to make Linux
 easier and more useful.
 
-● Popular Linux Distributions
+### Popular Linux Distributions
 
 | Distribution             | Best For               | Difficulty |
 | ---                      | ---                    | ---
@@ -141,101 +141,52 @@ easier and more useful.
 | OpenWrt                  | Routers & Networking Devices | ⭐⭐⭐
 | Arch Linux               | Advanced Users & Learning Linux Deeply | ⭐⭐⭐⭐
 
-
-Desktop Preview
-```text
-e Why Are There Different Distributions?
-e Popular Linux Distributions
-Ubuntu Beginners 4
-Fedora Developers fete
-Debian Servers tee
-Kali Linux Cybersecurity te te te
-Parrot OS Cybersecurity & Privacy woke
-openwt Routers & Networking wet
-Arch Linux Linux Deeply Yee ek
-e Desktop Preview
-```
-
-
 ---
 
 ## page 5
 
-Linux Mint                     Fedora
-Ubuntu
-
-OpenWrt
-Kali Linux                                            Arch Linux
-
-↘ Ready to Use Linux?
+#### Ready to Use Linux?
 So far, we have learned:
-✅     What Linux is
-✅     Why Linux is important
-✅     Why Linux is widely used in cybersecurity
-✅     Different Linux distributions
-⛔ Now it's time to stop reading about Linux and start using it.
-From this point onward, you'll learn the commands used every day by Linux users,
-system administrators, and cybersecurity professionals.
-This is where the real Linux journey begins.
-Let's start with the most important tool in Linux: The Terminal.
+✅     What Linux is<br/>
+✅     Why Linux is important<br/>
+✅     Why Linux is widely used in cybersecurity<br/>
+✅     Different Linux distributions<br/>
+⛔ Now it's time to stop reading about Linux and start using it.<br/>
+From this point onward, you'll learn the commands used every day by Linux users,<br/>
+system administrators, and cybersecurity professionals.<br/>
+This is where the real Linux journey begins.<br/>
+Let's start with the most important tool in Linux: The Terminal.<br/>
 
-↘ The Terminal
-● What is the Terminal?
-
- 
-
-```text
-e What is the Terminal?
-```
-
-
----
-
-## page 6
+## The Terminal
+### What is the Terminal?
 
 ### The Terminal is a text-based interface that allows you to communicate directly
 with the operating system by typing commands. Instead of clicking through
 multiple menus, you can perform tasks quickly and efficiently using simple
 commands.
 
-A Terminal window in Kali Linux.
+##### With the Terminal, you can:
+● Navigate (move), through files and directories
+● Create, copy, move, and delete files
+● Manage users and permissions
+● Install and update software
+● Monitor system activity
+●  Perform advanced administrative tasks
 
-When most people use a computer, they click icons, open menus, and use a
-mouse to perform tasks.
-Linux can do all of that too.
-However, one of the biggest reasons Linux is so powerful is the Terminal.
+<br/><br/><br/>
 
-● With the Terminal, you can:
-Navigate (move), through files and directories
-Create, copy, move, and delete files
-Manage users and permissions
-Install and update software
-Monitor system activity
-
- 
-
-```text
-e With the Terminal, you can:
-```
-
-
----
-
-## page 7
-
-Perform advanced administrative tasks
 At first, the Terminal may look intimidating, but don't worry. Most Linux users felt
-the same way when they started, I may find the terminal unfamiliar at first      😅
+the same way when they started, I may find the terminal unfamiliar at first 😅
 but once you learn a few basic commands, you'll discover why the Terminal is one
 of the most powerful tools in Linux.
 Let's begin with our first Linux commands.
 
-↘ Before We Start
+#### Before We Start
 Before learning commands, let's understand how commands are actually used.
 When you open a terminal, Linux waits for your instructions. You type a command,
 press Enter, and Linux gives Output.
 
-For example        👇🏼
+#### For example        👇🏼
 
 Here, date is the command and the text below it is the output.
 In Linux, you'll use this pattern again and again   👊🏼
@@ -243,7 +194,7 @@ Command      👉🏼 Enter 👉🏼 Output ✌🏼
 Now that you know how commands work, let's learn some useful ones.
 
 ### Basic Commands —
-☝🏻      Disclaimer
+☝🏻 Disclaimer
 Before moving forward, keep this in mind: every advanced Linux skill
 is built upon these basic commands. Whether your goal is scripting,
 system administration, cybersecurity, or ethical hacking, a weak
