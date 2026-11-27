@@ -138,7 +138,6 @@ easier and more useful.
 | Debian                     | Servers                   ⭐⭐⭐
 | Kali Linux                 | Cybersecurity             ⭐⭐⭐
 | Parrot OS                  | Cybersecurity & Privacy   ⭐⭐⭐
-
 | OpenWrt                    | Routers & Networking
                                Devices                    ⭐⭐⭐
 | Arch Linux                 | Advanced Users & Learning
