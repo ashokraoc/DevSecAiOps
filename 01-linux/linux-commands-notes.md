@@ -146,12 +146,12 @@ easier and more useful.
 ## page 5
 
 #### Ready to Use Linux?
-So far, we have learned:
+So far, we have learned:<br/>
 ✅     What Linux is<br/>
 ✅     Why Linux is important<br/>
 ✅     Why Linux is widely used in cybersecurity<br/>
 ✅     Different Linux distributions<br/>
-⛔ Now it's time to stop reading about Linux and start using it.<br/>
+⛔ Now it's time to stop reading about Linux and start using it.<br/><br/><br/>
 From this point onward, you'll learn the commands used every day by Linux users,<br/>
 system administrators, and cybersecurity professionals.<br/>
 This is where the real Linux journey begins.<br/>
@@ -166,15 +166,13 @@ multiple menus, you can perform tasks quickly and efficiently using simple
 commands.
 
 ##### With the Terminal, you can:
-● Navigate (move), through files and directories
-● Create, copy, move, and delete files
-● Manage users and permissions
-● Install and update software
-● Monitor system activity
-●  Perform advanced administrative tasks
-
-<br/><br/><br/>
-
++ Navigate (move), through files and directories
++ Create, copy, move, and delete files
++ Manage users and permissions
++ Install and update software
++ Monitor system activity
++ Perform advanced administrative tasks
+<br/>
 At first, the Terminal may look intimidating, but don't worry. Most Linux users felt
 the same way when they started, I may find the terminal unfamiliar at first 😅
 but once you learn a few basic commands, you'll discover why the Terminal is one
